@@ -9,13 +9,7 @@ return require('packer').startup(function(use)
   requires = { {'nvim-lua/plenary.nvim'} }
 
   }
-  use { 
-      'doums/darcula',
-      as = 'darcula',
-      config = function()
-          vim.cmd('colorscheme darcula')
-      end
-  }
+  use 'loctvl842/monokai-pro.nvim'
   use ('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})
   use 'nvim-treesitter/playground'
   use 'theprimeagen/harpoon'

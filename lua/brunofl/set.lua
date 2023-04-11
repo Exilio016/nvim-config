@@ -19,4 +19,4 @@ vim.opt.undofile = true
 vim.opt.termguicolors = true
 
 vim.g.mapleader = " "
-
+vim.cmd("colorscheme monokai-pro")
